@@ -7,6 +7,9 @@ import Navbar from "./components/Navbar";
 
 import "./styles.scss";
 
+import useData from './useData';
+import useDarkMode from './useDarkMode';
+
 const App = () => {
   const [coinData, setCoinData] = useState([]);
 
